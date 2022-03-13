@@ -1,0 +1,42 @@
+.app-header {
+  display: grid;
+  place-items: center;
+}
+.app-header .css-9npbnl-MuiFormLabel-root-MuiInputLabel-root,
+.app-header .css-13maa2j {
+  font-size: 14px !important;
+  padding: 5px 0 !important;
+}
+.app-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+.app-err-message {
+  display: none;
+  text-align: center;
+  background-color: #fb9b9b;
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px;
+  color: #ffffff;
+  border-radius: 30px;
+}
+.app-header .css-wb57ya-MuiFormControl-root-MuiTextField-root,
+.app-header .css-feqhe6 {
+  width: 50% !important;
+  margin: 10px !important;
+}
+
+@media (max-width: 900px) {
+  .app-images {
+    display: grid;
+    place-items: center;
+  }
+  .app-header .css-wb57ya-MuiFormControl-root-MuiTextField-root,
+  .app-header .css-feqhe6 {
+    width: 92% !important;
+  }
+  .app-err-message {
+    width: 85%;
+  }
+}
